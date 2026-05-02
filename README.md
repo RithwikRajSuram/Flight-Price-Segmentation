@@ -26,12 +26,11 @@ Sample data:
 - SciPy
 - Scikit-learn
 
-## Methodology
+## Key Visualization
+Dendrogram
 
-### 1. Data Loading
-The dataset was loaded using Pandas.
+The dendrogram shows how flight prices are merged into groups based on similarity. Prices that are closer together are joined earlier, while prices that are farther apart merge at higher levels in the graph.
 
-```python
-import pandas as pd
+## Conclusion
 
-data = pd.read_csv("Data-Week61.csv")
+This project demonstrates how hierarchical clustering can be used to segment flight ticket prices without predefined labels. By using only the price feature, the model identified three natural pricing groups: low, medium, and high. The silhouette score of 0.6038 suggests that the clustering structure is meaningful and moderately well separated.
