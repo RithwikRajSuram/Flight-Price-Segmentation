@@ -1,4 +1,10 @@
 # Flight Price Segmentation using Hierarchical Clustering
+## 📊 Live Dashboard
+
+[**View the interactive dashboard →**](https://claude.ai/artifact/5sW5w5J1WuJfBDt99yz36p#realestate)
+
+---
+
 
 ## Project Overview
 This project applies hierarchical clustering to flight ticket price data to identify natural pricing groups. The analysis uses the `price` column to segment flights into low, medium, and high price clusters. A dendrogram is used to visualize how similar prices are grouped together, and the silhouette score is used to evaluate how well the clusters are separated.
